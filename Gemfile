@@ -44,9 +44,13 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
 
-  gem 'pg', '0.17.1'
+group :production do
+  # Postgresql
+  gem 'pg'
 
-  gem 'rails_12factor', '0.0.3'
+  #Rails Factor
+  gem 'rails_12factor'
 end
 

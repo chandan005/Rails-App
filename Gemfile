@@ -36,8 +36,6 @@ group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
 end
 
 group :development do
@@ -47,8 +45,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-
-  gem 'pg'
+  gem 'pg', '0.18.2'
 
   gem 'rails_12factor', '0.0.3'
 end

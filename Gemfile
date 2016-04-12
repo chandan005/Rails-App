@@ -56,7 +56,5 @@ group :production do
 
   #Rails Factor
   gem 'rails_12factor'
-
-  gem 'puma'
 end
 
